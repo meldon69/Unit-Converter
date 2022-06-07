@@ -6,10 +6,16 @@
 // 1kg = 2.20462lb / 1lb = 0.453592kg
 
 // 1st
-let number = 20;
-document.getElementById("number-input").textContent = number
 
 // 2nd
+
+
+function run() {
+number = document.querySelector("#val").value;
+display = document.querySelector("#number-input")
+display.textContent = number
+ 
+
 let meter = number * 3.28084;
 let m = meter.toFixed(3) + " ft";
 
@@ -79,3 +85,5 @@ function kiloPound() {
     lbs;
 }
 kiloPound();
+
+}
