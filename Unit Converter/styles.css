@@ -14,7 +14,7 @@
 }
 
 #input {
-  height: 240px;
+  height: 200px;
   background: linear-gradient(
     45deg,
     #000 0%,
@@ -33,26 +33,15 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 40px;
   line-height: 38px;
   text-align: center;
   letter-spacing: -0.05em;
-  color: #ffffff;
-}
-
-#number-input {
-  padding-top: 7.5%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bolder;
-  font-size: 75px;
-  line-height: 24px;
-  text-align: center;
-  color: #ffffff;  
+  color: floralwhite;
 }
 
 #enter {
-  margin-top: 35px;
+  margin-top: 25px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -60,24 +49,21 @@
 
 #val {
   text-align: center;
-  font-size: 16px;
-  width: 110px;
-  background: black;
-  color: white;
+  font-size: 25px;
+  width: 200px;
+  background: none;
+  color: floralwhite;
   font-weight: bold;
+  padding: 5px;
 }
 
 ::placeholder {
-  color: white;
+  color: floralwhite;
   opacity: 1;
   font-weight: bold;
   font-style: italic;
-}
-
-#butt {
-  font-size: 13px;
-  padding: 2px;
-  margin-left: 10px;
+  font-size: 20px;
+  
 }
 
 #output {
@@ -88,6 +74,7 @@
   /* background: whitesmoke; */
   margin: 2px;
   margin-top: 1px;
+  padding: 0 10px;
   
 }
 
@@ -115,7 +102,7 @@
   padding-bottom: 15px;
   text-align: center;
 
-  color: #ffffff;
+  color: floralwhite;
 }
 
 .bottom {

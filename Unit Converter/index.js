@@ -12,7 +12,7 @@
 
 function run() {
 number = document.querySelector("#val").value;
-display = document.querySelector("#number-input")
+display = document.querySelector("#val")
 display.textContent = number
  
 
