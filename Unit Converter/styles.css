@@ -4,17 +4,17 @@
   box-sizing: border-box;
 }
 
-#container {
-  margin: 20px auto;
-  max-width: 400px;
-  
+#container {  
+  display: flex;
+  flex-direction: column;  
   background: black;
   border: 5px solid black;
   border-radius: 5px;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
-#input {
-  height: 200px;
+#input {  
   background: linear-gradient(
     45deg,
     #000 0%,
@@ -25,11 +25,10 @@
   border-bottom: 0.25px solid black;
   border-radius: 10px;
   margin: 2px;
-  margin-bottom: 1px;
+  padding: 20px 0 30px 0;
 }
 
-#heading {
-  padding-top: 6%;
+#heading {  
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -44,17 +43,18 @@
   margin-top: 25px;
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
 #val {
   text-align: center;
   font-size: 25px;
-  width: 200px;
+  /* width: 200px; */
   background: none;
   color: floralwhite;
   font-weight: bold;
   padding: 5px;
+  
+ 
 }
 
 ::placeholder {
@@ -62,35 +62,36 @@
   opacity: 1;
   font-weight: bold;
   font-style: italic;
-  font-size: 20px;
+  font-size: 22px;
   
 }
 
 #output {
-  border-top: 0.25px solid black;
-  height: 350px;
+  border-top: 0.25px solid black;  
   border-radius: 10px;
-  background: #1f2937;
-  /* background: whitesmoke; */
+  background: #1f2937;  
   margin: 2px;
   margin-top: 1px;
   padding: 0 10px;
-  
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 #length {
   margin: 0 auto;
-  padding-top: 9%;
+  padding-top: 5%;
 }
 
 #volume {
   margin: 0 auto;
-  padding-top: 8%;
+  padding-top: 5%;
 }
 
 #mass {
   margin: 0 auto;
-  padding-top: 8%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .top {
